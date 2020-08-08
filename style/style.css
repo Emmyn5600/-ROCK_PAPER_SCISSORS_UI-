@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+#start-game {
+    text-align: center;
+    margin-top: 60px;
+}
+#start-button {
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+#start-button:hover{
+ background-color: brown;;
+}
+
+.scoreboard #computerScore{
+    padding-bottom: 5px;
+}
+p{
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.guess{
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.button-start{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.button-start #rock{
+    width: 100px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.button-start #paper{
+    width: 100px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.button-start #scissors{
+    width: 100px;
+    padding: 15px;
+    cursor: pointer;
+}
