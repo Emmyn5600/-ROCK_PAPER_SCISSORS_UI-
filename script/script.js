@@ -44,37 +44,36 @@ function playround (playerSelection){
         guess.textContent = "It’s a tie! You both choose  " + playerSelection;
         }
         else if (playerSelection === "rock" && computerSelection === "scissors") {
-        guess.textContent = "You Win! You choose " + playerSelection + " Computer choose " + computerSelection , 
-        userScore++,
+        guess.textContent = `You Win! You choose ${playerSelection }  Computer choose   ${computerSelection}`, userScore++,
         PlayerScore.textContent = "Your score is : " + userScore,
         MachineScore.textContent = "Computer score is : " + computerScore;
         }
         else if (playerSelection === "rock" && computerSelection === "paper") {
-        guess.textContent = "You fail! You choose " + playerSelection + " Computer choose  " + computerSelection ,
+        guess.textContent = `You fail! You choose  ${playerSelection} Computer choose ${computerSelection}`,
         computerScore++,
         PlayerScore.textContent = "Your score is : " + userScore,
         MachineScore.textContent = "Computer score is : " + computerScore;
         }
         else if (playerSelection ==="paper" && computerSelection === "rock") {
-        guess.textContent = "You Win! You choose  " + playerSelection + " Computer choose  " + computerSelection , 
+        guess.textContent = `You Win! You choose ${playerSelection} Computer choose ${computerSelection}`, 
         userScore++,
         PlayerScore.textContent = "Your score is : " + userScore,
         MachineScore.textContent = "Computer score is : " + computerScore;
         }
         else if (playerSelection === "paper" && computerSelection === "scissors") {
-        guess.textContent = "You fail! You choose  " + playerSelection + " Computer choose  " + computerSelection , 
+        guess.textContent = `You fail! You choose ${playerSelection} Computer choose ${computerSelection}`, 
         computerScore++,
         PlayerScore.textContent = "Your score is : " + userScore,
         MachineScore.textContent = "Computer score is : " + computerScore;
         }
         else if (playerSelection === "scissors" && computerSelection === "paper") {
-        guess.textContent = "You Win! You choose  " + playerSelection + " Computer choose  " + computerSelection ,
+        guess.textContent = `You Win! You choose ${playerSelection} Computer choose  ${computerSelection}`,
          userScore++,
         PlayerScore.textContent = "Your score is : " + userScore,
         MachineScore.textContent = "Computer score is : " + computerScore;
         }
         else {
-        guess.textContent = "You fail! You choose  " + playerSelection + " Computer choose  " + computerSelection , 
+        guess.textContent = `You fail! You choose  ${playerSelection} Computer choose ${computerSelection}`, 
         computerScore++,
         PlayerScore.textContent = "Your score is : " + userScore,
         MachineScore.textContent = "Computer score is : " + computerScore;
